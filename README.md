@@ -4,9 +4,7 @@ This repo includes a set of tests that can be used to assess the skills of
 a candidate for a ReactJS position.
 
 ## I want to work on the tests; what do I do?
-To use the tests, you will need to install [Node](https://nodejs.org/). Note
-that on Windows, there are some reports that you will need to restart
-after installing Node - see #12.
+To use the tests, you will need to install [Node](https://nodejs.org/). 
 
 You can clone or download this repo. Once you have done so, from the root
 directory of the repo, run:
@@ -45,13 +43,13 @@ Requirement:
  below text input and change border-color of input to red
  * write a unit test for this component
 
-Initial State:
+Initial State:<br/>
 ![Initial State](img/numeric-input-initial-state.png?raw=true "Numeric Input Initial State")
 
-Invalid State:
+Invalid State:<br/>
 ![Invalid State](img/numeric-input-invalid-state.png?raw=true "Numeric Input Invalid State")
 
-Valid State:
+Valid State:v
 ![Valid State](img/numeric-input-valid-state.png?raw=true "Numeric Input valid State")
 
 ## Ajax `#ajax`
@@ -63,7 +61,7 @@ Requirement:
    * [localhost:4002/products](localhost:4002/products): return ```{product}[]``` 
  * write a unit test for this component
 
-Valid State:
+Valid State:<br/>
 ![Valid State](img/featured-deal-valid-state.png?raw=true "Numeric Input valid State")
 
 ## Counter `#counter`
@@ -75,10 +73,10 @@ Requirement:
    * [-] button will decrease value by 1
  * write a unit test for this component
 
-Initial State:
+Initial State:<br/>
 ![Inital State](img/counter-initial-state.png?raw=true "Numeric Input valid State")
 
-Changed State:
+Changed State:<br/>
 ![Changed State](img/counter-changed-state.png?raw=true "Numeric Input valid State")
 
 # Packages
