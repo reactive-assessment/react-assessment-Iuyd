@@ -33,9 +33,10 @@ You can then view the API in your browser at
   * [Ajax](#ajax)
   * [Counter](#counter)
 
-## Numeric Input `#Numeric Input`
+## Numeric Input
 
-Component Location: src/features/NumericInput/index.js
+Component's Location: src/features/NumericInput/index.js
+
 Requirement:
 
  * write an input component  that will take only number 0 to 9 
@@ -49,13 +50,15 @@ Initial State:<br/>
 Invalid State:<br/>
 ![Invalid State](img/numeric-input-invalid-state.png?raw=true "Numeric Input Invalid State")
 
-Valid State:v
+Valid State:<br/>
 ![Valid State](img/numeric-input-valid-state.png?raw=true "Numeric Input valid State")
 
-## Ajax `#ajax`
+## Ajax
 
-Component Location: src/features/FeaturedDeals/index.js
+Component's Location: src/features/FeaturedDeals/index.js
+
 Requirement:
+
  * write a component to fetch & display products of Featured Deal
    * [localhost:4002/featured-deals](localhost:4002/featured-deals): return ```int[]``` of product-id
    * [localhost:4002/products](localhost:4002/products): return ```{product}[]``` 
@@ -64,10 +67,12 @@ Requirement:
 Valid State:<br/>
 ![Valid State](img/featured-deal-valid-state.png?raw=true "Numeric Input valid State")
 
-## Counter `#counter`
+## Counter
 
-Component Location: src/features/Counter/index.js
+Component's Location: src/features/Counter/index.js
+
 Requirement: 
+
  * write a component with buttons to increase or decrease redux-state value
    * [+] button will increase value by 1 
    * [-] button will decrease value by 1
@@ -79,7 +84,7 @@ Initial State:<br/>
 Changed State:<br/>
 ![Changed State](img/counter-changed-state.png?raw=true "Numeric Input valid State")
 
-# Packages
+# Dependencies
 
  * [react 16.13.1](https://reactjs.org/)
  * [react-jss 10.3.0](https://cssinjs.org/react-jss?v=v10.3.0)
