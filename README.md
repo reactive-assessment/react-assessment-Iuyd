@@ -3,6 +3,8 @@
 This repo includes a set of tests that can be used to assess the skills of
 a candidate for a ReactJS position.
 
+URL: https://shorturl.at/rsEX0
+
 ## I want to work on the tests; what do I do?
 To use the tests, you will need to install [Node](https://nodejs.org/). Note
 that on Windows, there are some reports that you will need to restart
@@ -38,7 +40,7 @@ You can then view the API in your browser at
   * [Date Range](#date-range)
   * [Contact Us](#contact-us)
 
-## Numeric Input `#Numeric Input`
+## Numeric Input
 
 Component Location: src/features/NumericInput/index.js
 Requirement:
@@ -57,7 +59,7 @@ Invalid State:<br/>
 Valid State:<br/>
 ![Valid State](img/numeric-input-valid-state.png?raw=true "Numeric Input valid State")
 
-## Ajax `#ajax`
+## Ajax
 
 Component Location: src/features/FeaturedDeals/index.js
 Requirement:
@@ -69,7 +71,7 @@ Requirement:
 Valid State:<br/>
 ![Valid State](img/featured-deal-valid-state.png?raw=true "Featured Deal valid State")
 
-## Counter `#counter`
+## Counter
 
 Component Location: src/features/Counter/index.js
 Requirement: 
@@ -84,7 +86,7 @@ Initial State:<br/>
 Changed State:<br/>
 ![Changed State](img/counter-changed-state.png?raw=true "Counter changed State")
 
-## Relative Date `#relative-date`
+## Relative Date
 
 Component Location: src/features/RelativeDate/index.js
 Requirement: 
@@ -106,7 +108,7 @@ Initial State:<br/>
 Valid State:<br/>
 ![Changed State](img/relative-date-valid-state.png?raw=true "Relative Date valid State")
 
-## Date Range `#date-range`
+## Date Range
 
 Component Location: src/features/Utiles/date-range.js
 Requirement: 
@@ -122,7 +124,7 @@ Requirement:
 Valid State:<br/>
 ![Changed State](img/date-range-valid-state.png?raw=true "Date Range valid State")
 
-## Contact us `#contact-us`
+## Contact us
 
 Component Location: src/features/ContactUs/index.js
 Requirement: 
