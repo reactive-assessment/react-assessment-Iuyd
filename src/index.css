@@ -1,3 +1,7 @@
+@import 'reset.css';
+html {
+    --tbl-brd-clr: #ccc;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -15,4 +19,19 @@ nav a, nav a:visited, nav a:active, nav a:hover {
 nav a.selected {
     background: #000 !important;
     color: #fff !important;
+}
+
+table tr th,
+table tr td {
+    border-left: solid 1px var(--tbl-brd-clr);
+    border-top: solid 1px var(--tbl-brd-clr);
+    padding: 2px 5px;
+}
+table tr th:last-child,
+table tr td:last-child {
+    border-right: solid 1px var(--tbl-brd-clr);
+
+}
+table tr:last-child td {
+    border-bottom: solid 1px var(--tbl-brd-clr);
 }

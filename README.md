@@ -4,7 +4,9 @@ This repo includes a set of tests that can be used to assess the skills of
 a candidate for a ReactJS position.
 
 ## I want to work on the tests; what do I do?
-To use the tests, you will need to install [Node](https://nodejs.org/). 
+To use the tests, you will need to install [Node](https://nodejs.org/). Note
+that on Windows, there are some reports that you will need to restart
+after installing Node - see #12.
 
 You can clone or download this repo. Once you have done so, from the root
 directory of the repo, run:
@@ -32,11 +34,12 @@ You can then view the API in your browser at
   * [Numeric Input](#numeric-Input)
   * [Ajax](#ajax)
   * [Counter](#counter)
+  * [Relative Date](#relative-date)
+  * [Date Range](#date-range)
 
-## Numeric Input
+## Numeric Input `#Numeric Input`
 
-Component's Location: src/features/NumericInput/index.js
-
+Component Location: src/features/NumericInput/index.js
 Requirement:
 
  * write an input component  that will take only number 0 to 9 
@@ -53,12 +56,10 @@ Invalid State:<br/>
 Valid State:<br/>
 ![Valid State](img/numeric-input-valid-state.png?raw=true "Numeric Input valid State")
 
-## Ajax
+## Ajax `#ajax`
 
-Component's Location: src/features/FeaturedDeals/index.js
-
+Component Location: src/features/FeaturedDeals/index.js
 Requirement:
-
  * write a component to fetch & display products of Featured Deal
    * [localhost:4002/featured-deals](localhost:4002/featured-deals): return ```int[]``` of product-id
    * [localhost:4002/products](localhost:4002/products): return ```{product}[]``` 
@@ -67,12 +68,10 @@ Requirement:
 Valid State:<br/>
 ![Valid State](img/featured-deal-valid-state.png?raw=true "Numeric Input valid State")
 
-## Counter
+## Counter `#counter`
 
-Component's Location: src/features/Counter/index.js
-
+Component Location: src/features/Counter/index.js
 Requirement: 
-
  * write a component with buttons to increase or decrease redux-state value
    * [+] button will increase value by 1 
    * [-] button will decrease value by 1
@@ -84,7 +83,45 @@ Initial State:<br/>
 Changed State:<br/>
 ![Changed State](img/counter-changed-state.png?raw=true "Numeric Input valid State")
 
-# Dependencies
+## Relative Date `#relative-date`
+
+Component Location: src/features/RelativeDate/index.js
+Requirement: 
+ * write a function that will take a date and compare with today date and return text:
+   * Today: same year, same month, same date 
+   * Yesterday: same year, same month, date = today - 1 
+   * This week: same year, same month, today - 7 < date  < today - 1
+   * Last week: same year, same month, date = today - 7
+   * This month: same year, same month, date < today - 7
+   * Last month: same year, month = current month - 1
+   * This year: same year
+   * last year: year = current year - 1
+   * Long time ago: everything else
+ * write a unit test for this function
+
+Initial State:<br/>
+![Inital State](img/relative-date-initial-state.png?raw=true "Relative Date Initial State")
+
+Valid State:<br/>
+![Changed State](img/relative-date-valid-state.png?raw=true "Relative Date valid State")
+
+## Date Range `#date-range`
+
+Component Location: src/features/Utiles/date-range.js
+Requirement: 
+ * write a function that will pass all its unit-tests (src/features/Utiles/date-range.test.js) :
+   * function will take 2 parameters({Date}fromDate, {Date}toDate) and return {String}
+   * dd-MMM-yyyy - dd-MMM-yyyy: default value
+   * dd-MMM-yyyy: fromDate = toDate 
+   * MMM-yyyy: fromDate year, month = toDate year, month
+   * Q?-yyyy: for Quarter date-range   
+   * MMM = 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+ * write a unit test for this function
+
+Valid State:<br/>
+![Changed State](img/date-range-valid-state.png?raw=true "Date Range valid State")
+
+# Packages
 
  * [react 16.13.1](https://reactjs.org/)
  * [react-jss 10.3.0](https://cssinjs.org/react-jss?v=v10.3.0)

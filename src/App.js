@@ -10,6 +10,9 @@ import {
 import NumericInput from './features/NumericInput';
 import FeaturedDeals from './features/FeaturedDeals';
 import Counter from './features/Counter';
+import RelativeDate from './features/RelativeDate';
+
+
 import './index.css';
 
 function App() {
@@ -22,6 +25,7 @@ function App() {
               <NavLink activeClassName="selected" to="/NumericInput">NumericInput</NavLink >
               <NavLink activeClassName="selected" to="/FeaturedDeals">FeaturedDeals</NavLink >
               <NavLink activeClassName="selected" to="/Counter">Counter</NavLink >
+              <NavLink activeClassName="selected" to="/RelativeDate">Relative Date</NavLink >
 
             </nav>
 
@@ -34,6 +38,9 @@ function App() {
               </Route>
               <Route path="/NumericInput">
                 <NumericInput/>
+              </Route>
+              <Route path="/RelativeDate">
+                <RelativeDate/>
               </Route>
             </Switch>
           </div>
