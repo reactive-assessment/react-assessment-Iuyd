@@ -36,6 +36,7 @@ You can then view the API in your browser at
   * [Counter](#counter)
   * [Relative Date](#relative-date)
   * [Date Range](#date-range)
+  * [Contact Us](#contact-us)
 
 ## Numeric Input `#Numeric Input`
 
@@ -66,7 +67,7 @@ Requirement:
  * write a unit test for this component
 
 Valid State:<br/>
-![Valid State](img/featured-deal-valid-state.png?raw=true "Numeric Input valid State")
+![Valid State](img/featured-deal-valid-state.png?raw=true "Featured Deal valid State")
 
 ## Counter `#counter`
 
@@ -78,10 +79,10 @@ Requirement:
  * write a unit test for this component
 
 Initial State:<br/>
-![Inital State](img/counter-initial-state.png?raw=true "Numeric Input valid State")
+![Inital State](img/counter-initial-state.png?raw=true "Counter valid State")
 
 Changed State:<br/>
-![Changed State](img/counter-changed-state.png?raw=true "Numeric Input valid State")
+![Changed State](img/counter-changed-state.png?raw=true "Counter changed State")
 
 ## Relative Date `#relative-date`
 
@@ -120,6 +121,20 @@ Requirement:
 
 Valid State:<br/>
 ![Changed State](img/date-range-valid-state.png?raw=true "Date Range valid State")
+
+## Contact us `#contact-us`
+
+Component Location: src/features/ContactUs/index.js
+Requirement: 
+ * optimize performance on contact-form - its responses very slow when we enter value in name, email or comment input
+   * the form has 3 controlled-components (name, email and comment) and 1 hidden/readonly component(captcha)
+   * 3 controlled-components should remain as controlled-component 
+   * Captcha Input/Component takes a "token" property and return hidden/readonly input with value of hash-string.
+   You can't change this component
+ * write a unit test for this component
+ 
+ Initial State:<br/>
+ ![Inital State](img/contact-us-initial-state.png?raw=true "Contact Us Initial State")
 
 # Packages
 
