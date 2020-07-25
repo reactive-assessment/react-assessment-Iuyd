@@ -43,6 +43,7 @@ You can then view the API in your browser at
 ## Numeric Input
 
 Component Location: src/features/NumericInput/index.js
+
 Requirement:
 
  * write an input component  that will take only number 0 to 9 
@@ -62,6 +63,7 @@ Valid State:<br/>
 ## Ajax
 
 Component Location: src/features/FeaturedDeals/index.js
+
 Requirement:
  * write a component to fetch & display products of Featured Deal
    * [localhost:4002/featured-deals](localhost:4002/featured-deals): return ```int[]``` of product-id
@@ -74,6 +76,7 @@ Valid State:<br/>
 ## Counter
 
 Component Location: src/features/Counter/index.js
+
 Requirement: 
  * write a component with buttons to increase or decrease redux-state value
    * [+] button will increase value by 1 
@@ -89,6 +92,7 @@ Changed State:<br/>
 ## Relative Date
 
 Component Location: src/features/RelativeDate/index.js
+
 Requirement: 
  * write a function that will take a date and compare with today date and return text:
    * Today: same year, same month, same date 
@@ -111,6 +115,7 @@ Valid State:<br/>
 ## Date Range
 
 Component Location: src/features/Utiles/date-range.js
+
 Requirement: 
  * write a function that will pass all its unit-tests (src/features/Utiles/date-range.test.js) :
    * function will take 2 parameters({Date}fromDate, {Date}toDate) and return {String}
@@ -127,6 +132,7 @@ Valid State:<br/>
 ## Contact us
 
 Component Location: src/features/ContactUs/index.js
+
 Requirement: 
  * optimize performance on contact-form - its responses very slow when we enter value in name, email or comment input
    * the form has 3 controlled-components (name, email and comment) and 1 hidden/readonly component(captcha)
